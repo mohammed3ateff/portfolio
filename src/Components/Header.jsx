@@ -8,7 +8,7 @@ export default function Header() {
   };
 
   return (
-    <nav className="mx-auto fixed w-full bg-[#00000082] bg-transparent">
+    <nav className="mx-auto fixed w-full bg-[#00000082] bg-transparent z-[9999]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4">
         <div className="w-full md:block md:w-auto">
           <ul className="flex justify-center items-center font-medium p-3.5 rounded-lg bg-[#00000082] md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">

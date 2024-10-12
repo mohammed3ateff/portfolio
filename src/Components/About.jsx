@@ -1,6 +1,5 @@
 import bgPhoto from "../assets/bg-photo.png";
-import profilePic from "../assets/mo.jpg";
-import profileimg from "../assets/me.jpg";
+import profilePic from "../assets/mohammmed.jpg";
 
 export default function About() {
   return (
@@ -23,13 +22,13 @@ export default function About() {
             src={bgPhoto}
           />
           <img
-            alt={profileimg}
+            alt={profilePic}
             loading="lazy"
             width="250"
             height="500"
             decoding="async"
-            className=" rounded-full h-32 w-32 lg:h-60 lg:w-60 object-contain absolute lg:translate-x-3 duration-500 ease-in-out cursor-pointer lg:-translate-y-3 lg:hover:translate-y-0 lg:hover:translate-x-0 border-white border-2"
-            src={profileimg}
+            className=" rounded-full h-32 w-32 lg:h-60 lg:w-60 object-cover absolute lg:translate-x-3 duration-500 ease-in-out cursor-pointer lg:-translate-y-3 lg:hover:translate-y-0 lg:hover:translate-x-0 border-white border-2"
+            src={profilePic}
           />
         </div>
         <div className=" flex flex-col justify-center lg:w-2/3 lg:p-6">
