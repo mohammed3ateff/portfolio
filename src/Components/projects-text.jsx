@@ -57,7 +57,7 @@ export default function ProjectsTest() {
           </div>
           <div className="buttonsView flex flex-1 flex-wrap justify-evenly gap-4">
             <a
-              href="https://github.com/Mohammed3Atef/Messenger-App"
+              href="https://github.com/mohammed3ateff/Messenger-App"
               target="_blank"
               rel="noreferrer"
               className="code flex gap-2 items-center bg-transparent text-white border text-[1.1rem] cursor-pointer  duration-[0.3s] ease-[ease,border-color] px-[0.6rem] py-1 rounded-[5px] border-solid border-[#00ffd1]  hover:bg-[#00e1ff2f] hover:border-[#00e0ff]"
@@ -149,7 +149,7 @@ export default function ProjectsTest() {
           </div>
           <div className="buttonsView flex flex-1 flex-wrap justify-evenly gap-4">
             <a
-              href="https://github.com/Mohammed3Atef/Dashboard"
+              href="https://github.com/mohammed3ateff/Dashboard"
               target="_blank"
               rel="noreferrer"
               className="code flex gap-2 items-center bg-transparent text-white border text-[1.1rem] cursor-pointer  duration-[0.3s] ease-[ease,border-color] px-[0.6rem] py-1 rounded-[5px] border-solid border-[#00ffd1]  hover:bg-[#00e1ff2f] hover:border-[#00e0ff]"
@@ -169,7 +169,7 @@ export default function ProjectsTest() {
               <div>Code</div>
             </a>
             <a
-              href="https://mohammed3atef.github.io/Dashboard/"
+              href="https://mohammed3ateff.github.io/Dashboard/"
               target="_blank"
               rel="noreferrer"
               className="website  flex gap-2 items-center bg-transparent text-white border text-[1.1rem] cursor-pointer duration-[0.3s] ease-[ease,border-color] px-[0.6rem] py-1 rounded-[5px] border-solid border-[#00ffd1] hover:bg-[#00e1ff2f] hover:border-[#00e0ff]"
@@ -217,7 +217,7 @@ export default function ProjectsTest() {
           </div>
           <div className="buttonsView flex flex-1 flex-wrap justify-evenly gap-4">
             <a
-              href="https://github.com/Mohammed3Atef/Library"
+              href="https://github.com/mohammed3ateff/Library"
               target="_blank"
               rel="noreferrer"
               className="code flex gap-2 items-center bg-transparent text-white border text-[1.1rem] cursor-pointer  duration-[0.3s] ease-[ease,border-color] px-[0.6rem] py-1 rounded-[5px] border-solid border-[#00ffd1]  hover:bg-[#00e1ff2f] hover:border-[#00e0ff]"
@@ -237,7 +237,7 @@ export default function ProjectsTest() {
               <div>Code</div>
             </a>
             <a
-              href="https://mohammed3atef.github.io/Library/"
+              href="https://mohammed3ateff.github.io/Library/"
               target="_blank"
               rel="noreferrer"
               className="website  flex gap-2 items-center bg-transparent text-white border text-[1.1rem] cursor-pointer duration-[0.3s] ease-[ease,border-color] px-[0.6rem] py-1 rounded-[5px] border-solid border-[#00ffd1] hover:bg-[#00e1ff2f] hover:border-[#00e0ff]"
@@ -309,7 +309,7 @@ export default function ProjectsTest() {
           </div>
           <div className="buttonsView flex flex-1 flex-wrap justify-evenly gap-4">
             <a
-              href="https://github.com/Mohammed3Atef/Fashionesta"
+              href="https://github.com/mohammed3ateff/Fashionesta"
               target="_blank"
               rel="noreferrer"
               className="code flex gap-2 items-center bg-transparent text-white border text-[1.1rem] cursor-pointer  duration-[0.3s] ease-[ease,border-color] px-[0.6rem] py-1 rounded-[5px] border-solid border-[#00ffd1]  hover:bg-[#00e1ff2f] hover:border-[#00e0ff]"
