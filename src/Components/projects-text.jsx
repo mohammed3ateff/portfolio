@@ -10,8 +10,7 @@ import { FaCss3Alt } from "react-icons/fa";
 import messengerApp from "../assets/messengerApp.jpg";
 import dashboard from "../assets/dashboard.jpg";
 import dashboardMobile from "../assets/dashboard-mobile.jpg";
-import library from "../assets/library.jpg";
-import libraryMobile from "../assets/library-mobile.jpg";
+
 import fashion from "../assets/fashion.jpg";
 import fashionMobile from "../assets/fashion-mobile.jpg";
 import game from "../assets/game.jpg";
@@ -202,22 +201,24 @@ export default function ProjectsTest() {
       >
         <div className="projectInfo flex flex-col items-center justify-between gap-6">
           <div className="projectTitle text-[#00ffd1] text-[1.6rem] text-center tracking-[1px] rounded-md">
-            My Library
+            ADS Master
           </div>
           <div className="description text-base text-center text-white">
-            This project is a personal library management app developed using
-            JavaScript and Tailwind CSS. The application allows users to add
-            books, including the title, author, and number of pages, and to
-            track their reading status. The app features a responsive and modern
-            design, making it easy to use on any device.
+            ADS Master is a digital marketing agency specializing in innovative
+            solutions to enhance brand presence online. We offer a comprehensive
+            range of services, including campaign management, search engine
+            optimization, and social media marketing. Our team of professionals
+            designs tailored strategies to achieve clients' goals and increase
+            brand awareness. We believe in the power of data and analytics to
+            optimize performance and ensure sustainable success.
           </div>
           <div className="languagesView flex flex-1 flex-wrap justify-evenly gap-4">
+            <FaReact className="text-5xl text-[#00d8ff] duration-[0.3s] hover:scale-110" />
             <RiTailwindCssFill className="text-5xl text-[#00ffff] duration-[0.3s] hover:scale-110" />
-            <SiJavascript className="text-5xl text-[#ffff00] duration-[0.3s] hover:scale-110" />
           </div>
           <div className="buttonsView flex flex-1 flex-wrap justify-evenly gap-4">
             <a
-              href="https://github.com/mohammed3ateff/Library"
+              href="#"
               target="_blank"
               rel="noreferrer"
               className="code flex gap-2 items-center bg-transparent text-white border text-[1.1rem] cursor-pointer  duration-[0.3s] ease-[ease,border-color] px-[0.6rem] py-1 rounded-[5px] border-solid border-[#00ffd1]  hover:bg-[#00e1ff2f] hover:border-[#00e0ff]"
@@ -237,7 +238,7 @@ export default function ProjectsTest() {
               <div>Code</div>
             </a>
             <a
-              href="https://mohammed3ateff.github.io/Library/"
+              href="https://adsmaster.agency/"
               target="_blank"
               rel="noreferrer"
               className="website  flex gap-2 items-center bg-transparent text-white border text-[1.1rem] cursor-pointer duration-[0.3s] ease-[ease,border-color] px-[0.6rem] py-1 rounded-[5px] border-solid border-[#00ffd1] hover:bg-[#00e1ff2f] hover:border-[#00e0ff]"
@@ -259,16 +260,12 @@ export default function ProjectsTest() {
             </a>
           </div>
         </div>
-        <div className="imgView relative h-min ">
-          <img
-            src={libraryMobile}
-            alt="pr"
-            className="h-3/5 absolute bottom-[-1rem] right-[-1rem] rounded-[10px]"
-          />
-          <img
-            src={library}
-            alt="pr"
-            className=" flex flex-1 w-full transition-transform duration-[1s] ease-[ease,border-color] delay-[0.7s] rounded-[10px]"
+        <div className="imgView relative h-min">
+          <iframe
+            src="https://adsmaster.agency/"
+            title="Your Website"
+            className="w-full h-96 rounded-[10px] border-none"
+            style={{ minHeight: "400px" }}
           />
         </div>
       </article>
@@ -280,16 +277,12 @@ export default function ProjectsTest() {
         md:grid md:grid-cols-[1fr_1fr] md:gap-10  md:duration-[0.5s]
         md:px-0 md:py-8 md:border-y-transparent md:hover:border-t-2 hover:border-t-[#00ffd1]"
       >
-        <div className="imgView relative h-min ">
-          <img
-            src={fashionMobile}
-            alt="pr"
-            className="h-3/5 absolute bottom-[-1rem] right-[-1rem] rounded-[10px]"
-          />
-          <img
-            src={fashion}
-            alt="pr"
-            className=" flex flex-1 w-full transition-transform duration-[1s] ease-[ease,border-color] delay-[0.7s] rounded-[10px]"
+        <div className="imgView relative h-min">
+          <iframe
+            src="https://fashionesta.vercel.app/"
+            title="Your Website"
+            className="w-full h-96 rounded-[10px] border-none"
+            style={{ minHeight: "400px" }}
           />
         </div>
         <div className="projectInfo flex flex-col items-center justify-between gap-6">
@@ -378,7 +371,7 @@ export default function ProjectsTest() {
           </div>
           <div className="buttonsView flex flex-1 flex-wrap justify-evenly gap-4">
             <a
-              href="https://github.com/Mohammed3Atef/Library"
+              href="https://github.com/mohammed3ateff/Game_Rock_Paper_or_Scissors"
               target="_blank"
               rel="noreferrer"
               className="code flex gap-2 items-center bg-transparent text-white border text-[1.1rem] cursor-pointer  duration-[0.3s] ease-[ease,border-color] px-[0.6rem] py-1 rounded-[5px] border-solid border-[#00ffd1]  hover:bg-[#00e1ff2f] hover:border-[#00e0ff]"
@@ -398,7 +391,7 @@ export default function ProjectsTest() {
               <div>Code</div>
             </a>
             <a
-              href="https://mohammed3atef.github.io/Library/"
+              href="https://game-rock-paper-or-scissors.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="website  flex gap-2 items-center bg-transparent text-white border text-[1.1rem] cursor-pointer duration-[0.3s] ease-[ease,border-color] px-[0.6rem] py-1 rounded-[5px] border-solid border-[#00ffd1] hover:bg-[#00e1ff2f] hover:border-[#00e0ff]"
@@ -420,16 +413,12 @@ export default function ProjectsTest() {
             </a>
           </div>
         </div>
-        <div className="imgView relative h-min ">
-          <img
-            src={gameMobile}
-            alt="pr"
-            className="h-3/5 absolute bottom-[-1rem] right-[-1rem] rounded-[10px]"
-          />
-          <img
-            src={game}
-            alt="pr"
-            className=" flex flex-1 w-full transition-transform duration-[1s] ease-[ease,border-color] delay-[0.7s] rounded-[10px]"
+        <div className="imgView relative h-min">
+          <iframe
+            src="https://game-rock-paper-or-scissors.vercel.app/"
+            title="Your Website"
+            className="w-full h-96 rounded-[10px] border-none"
+            style={{ minHeight: "400px" }}
           />
         </div>
       </article>

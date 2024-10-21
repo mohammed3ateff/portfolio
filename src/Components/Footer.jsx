@@ -94,7 +94,7 @@ export default function Footer() {
           </ul>
           <div className="flex justify-center items-center mt-10 space-x-4 lg:space-x-10 opacity-95">
             <div>
-              <a href="https://github.com/Mohammed3Atef" target="_blank ">
+              <a href="https://github.com/mohammed3ateff/" target="_blank ">
                 <FaGithub className="text-5xl duration-[0.3s] hover:scale-110" />
               </a>
             </div>

@@ -41,7 +41,7 @@ function App() {
     <>
       <OrbitSpace>
         <Header />
-        <div className="z-20 container mx-auto px-4 sm:px-12 overflow-hidden">
+        <div className="z-20 container mx-auto px-4 sm:px-12 overflow-hidden ">
           <BrifDefinition />
           <About />
           <Skills />

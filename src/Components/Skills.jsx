@@ -5,6 +5,9 @@ import { FaReact } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 
 export default function Skills() {
   return (
@@ -51,6 +54,16 @@ export default function Skills() {
               <div className=" flex items-center justify-center flex-col">
                 <FaGithub className="text-5xl text-white duration-[0.3s] hover:scale-110" />
                 <p className=" mt-1 font-sans text-white">Git-Hub</p>
+              </div>
+              <div className=" flex items-center justify-center flex-col">
+                <FaNodeJs className="text-5xl text-[#87d02f] text-white duration-[0.3s] hover:scale-110" />
+                {/* <FaNode /> */}
+                <p className=" mt-1 font-sans text-white">Node.JS</p>
+              </div>
+              <div className=" flex items-center justify-center flex-col">
+                <SiMongodb className="text-5xl text-[#001e2b] text-white duration-[0.3s] hover:scale-110" />
+                {/* <FaNode /> */}
+                <p className=" mt-1 font-sans text-white">MongoDB</p>
               </div>
             </div>
           </div>
