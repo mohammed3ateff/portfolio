@@ -56,12 +56,12 @@ export default function Skills() {
                 <p className=" mt-1 font-sans text-white">Git-Hub</p>
               </div>
               <div className=" flex items-center justify-center flex-col">
-                <FaNodeJs className="text-5xl text-[#87d02f] text-white duration-[0.3s] hover:scale-110" />
+                <FaNodeJs className="text-5xl text-[#87d02f] duration-[0.3s] hover:scale-110" />
                 {/* <FaNode /> */}
                 <p className=" mt-1 font-sans text-white">Node.JS</p>
               </div>
               <div className=" flex items-center justify-center flex-col">
-                <SiMongodb className="text-5xl text-[#001e2b] text-white duration-[0.3s] hover:scale-110" />
+                <SiMongodb className="text-5xl text-[#001e2b]  duration-[0.3s] hover:scale-110" />
                 {/* <FaNode /> */}
                 <p className=" mt-1 font-sans text-white">MongoDB</p>
               </div>
